@@ -1,0 +1,168 @@
+.wrapper {
+  overflow-y: hidden; }
+
+.container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto; }
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  position: relative;
+  background: linear-gradient(0deg, rgba(248, 243, 255, 0.4), rgba(248, 243, 255, 0.4)), #FFFFFF; }
+
+h1, h2, h3, h4, h5, p, span, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  color: #0D224E; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #0D224E; }
+
+.btn-red {
+  background-color: #EF3959;
+  padding: 16px 32px;
+  box-shadow: 0px 0px 40px rgba(239, 57, 89, 0.4);
+  border-radius: 72px;
+  display: inline-block; }
+
+.btn-red span {
+  color: #fff;
+  font-size: 18px;
+  line-height: 22px; }
+
+.btn-red-border {
+  border: 1px solid #EF3959;
+  background-color: transparent; }
+
+.btn-red-border span {
+  color: #EF3959; }
+
+.circle-1 {
+  max-width: 770px;
+  max-height: 617px;
+  position: absolute;
+  left: 0;
+  top: 181px;
+  z-index: 1; }
+.circle-2 {
+  position: absolute;
+  top: 509px;
+  max-width: 552px;
+  max-height: 917px;
+  right: 0;
+  z-index: 1; }
+.circle-3 {
+  position: absolute;
+  top: 1600px;
+  right: 0;
+  z-index: 1; }
+.circle-4 {
+  position: absolute;
+  top: 2000px;
+  left: 0;
+  z-index: 1; }
+.circle-5 {
+  max-width: 100%;
+  max-height: 100%;
+  top: 2528px;
+  position: absolute;
+  z-index: 1; }
+.circle-6 {
+  max-height: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 2781px;
+  z-index: 1;
+  right: 0; }
+.circle-7 {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  top: 3363px;
+  z-index: 1;
+  right: 0; }
+.circle-8 {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  top: 3637px;
+  z-index: 1;
+  right: 7%; }
+.circle-9 {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  z-index: 1;
+  left: 0; }
+
+.ticker {
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: relative;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.ticker-top {
+  position: relative;
+  max-width: 100%;
+  font-size: 18px;
+  line-height: 22px;
+  min-height: 20px;
+  display: inline;
+  white-space: nowrap;
+  text-align: center;
+  left: -50px; }
+
+.ticker-bottom {
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  color: #EF3959;
+  display: inline;
+  white-space: nowrap;
+  text-align: center;
+  left: -50px; }
+
+@media (max-width: 1024.98px) {
+  .circle-1 {
+    top: 150px;
+    max-width: 300px;
+    max-height: 260px; }
+  .circle-2 {
+    max-width: 250px;
+    max-height: 500px; }
+  .circle-3 {
+    max-width: 600px; }
+  .circle-5 {
+    top: 4032px; }
+  .circle-6 {
+    top: 4600px; }
+  .circle-7 {
+    top: 5800px; }
+  .circle-8 {
+    top: 4900px; } }
+@media (max-width: 768.98px) {
+  .circle-3 {
+    max-width: 350px; }
+  .circle-4 {
+    max-width: 350px; }
+  .circle-5 {
+    top: 4332px; }
+  .circle-6 {
+    top: 4800px; } }
+@media (max-width: 480.98px) {
+  .circle-8 {
+    top: 5200px; } }
